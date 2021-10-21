@@ -1,0 +1,20 @@
+GET http://localhost:8080/todos 
+
+###
+
+POST http://localhost:8080/todo/new 
+Content-Type: application/json
+
+{
+    "text": "potato 1 kg"
+
+}
+
+###
+
+DELETE http://localhost:8080/todo/delete/61406cc635bc2b3bc9a374a4
+
+###
+
+PUT http://localhost:8080/todo/complete/6140aba6979df6f47ac0f811
+
